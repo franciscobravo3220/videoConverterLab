@@ -3,5 +3,5 @@ VIDEOS_STATUSES = { :PENDING => "PENDING",
                     :CONVERTED=>"REBOOTED"
                   }
 
-ZENCODER_API_KEY = "a101629b464bccdd306c7b626346da65"
+ZENCODER_API_KEY = "zENCODER_API_KEY"
 

@@ -6,14 +6,14 @@ if Rails.env.production?
     config.fog_credentials = {
 
         :provider => 'AWS',
-        :aws_access_key_id => 'AKIAJPESCLIRTTE5MOWQ',
-        :aws_secret_access_key => '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',
+        :aws_access_key_id => 'AWS_ACCES_KEY_ID',
+        :aws_secret_access_key => 'AWS_SECRET_ACCESS_KEY',
         :region => 'us-east-1'
     }
 
 
 
-    config.fog_directory = 'videoConvProd'
+    config.fog_directory = 'PROD_BUCKET'
     config.fog_public = true
     #config.fog_host= 'http://localhost:3000'
 
@@ -28,14 +28,14 @@ elsif Rails.env.development?
     config.fog_credentials = {
 
         :provider => 'AWS',
-        :aws_access_key_id => 'AKIAJPESCLIRTTE5MOWQ',
-        :aws_secret_access_key => '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',
+        :aws_access_key_id => 'AWS_ACCES_KEY_ID',
+        :aws_secret_access_key => 'AWS_SECRET_ACCESS_KEY',
         :region => 'us-east-1'
     }
 
 
 
-    config.fog_directory = 'videoConvDev'
+    config.fog_directory = 'DEV_BUCKET'
     config.fog_public = true
     #config.fog_host= 'http://localhost:3000'
 
@@ -50,14 +50,14 @@ else
     config.fog_credentials = {
 
         :provider => 'AWS',
-        :aws_access_key_id => 'AKIAJPESCLIRTTE5MOWQ',
-        :aws_secret_access_key => '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',
+        :aws_access_key_id => 'AWS_ACCES_KEY_ID',
+        :aws_secret_access_key => 'AWS_SECRET_ACCESS_KEY',
         :region => 'us-east-1'
     }
 
 
 
-    config.fog_directory = 'eclouds'
+    config.fog_directory = 'STAG_BUCKET'
     config.fog_public = true
     #config.fog_host= 'http://localhost:3000'
 
