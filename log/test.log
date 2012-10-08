@@ -1,0 +1,98 @@
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (27.5ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:28', '2012-10-03 16:11:28', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:28', '2012-10-03 16:11:28', 298486374)
+SQLite3::ConstraintException: column email is not unique: INSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:28', '2012-10-03 16:11:28', 298486374)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.5ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 298486374)[0m
+SQLite3::ConstraintException: column email is not unique: INSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 298486374)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 298486374)
+SQLite3::ConstraintException: column email is not unique: INSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 298486374)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 298486374)[0m
+SQLite3::ConstraintException: column email is not unique: INSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 298486374)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.6ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 298486374)
+SQLite3::ConstraintException: column email is not unique: INSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 298486374)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.5ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 298486374)[0m
+SQLite3::ConstraintException: column email is not unique: INSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 298486374)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 298486374)
+SQLite3::ConstraintException: column email is not unique: INSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 298486374)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 298486374)[0m
+SQLite3::ConstraintException: column email is not unique: INSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 298486374)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.5ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 298486374)
+SQLite3::ConstraintException: column email is not unique: INSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 298486374)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.5ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 298486374)[0m
+SQLite3::ConstraintException: column email is not unique: INSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 298486374)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.5ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 298486374)
+SQLite3::ConstraintException: column email is not unique: INSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 298486374)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 298486374)[0m
+SQLite3::ConstraintException: column email is not unique: INSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 298486374)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.5ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 298486374)
+SQLite3::ConstraintException: column email is not unique: INSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 298486374)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 298486374)[0m
+SQLite3::ConstraintException: column email is not unique: INSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 298486374)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.5ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 298486374)
+SQLite3::ConstraintException: column email is not unique: INSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 298486374)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.5ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 298486374)[0m
+SQLite3::ConstraintException: column email is not unique: INSERT INTO "users" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-10-03 16:11:29', '2012-10-03 16:11:29', 298486374)
+  [1m[35m (0.1ms)[0m  rollback transaction
